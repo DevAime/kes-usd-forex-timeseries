@@ -16,7 +16,6 @@ A comprehensive statistical and machine learning analysis of the Kenyan Shilling
 - [Analysis Components](#analysis-components)
 - [Machine Learning Models](#machine-learning-models)
 - [Results](#results)
-- [Interactive Dashboard](#interactive-dashboard)
 - [Key Findings](#key-findings)
 - [Contributing](#contributing)
 
@@ -42,7 +41,7 @@ All exchange rate data sourced from the **Central Bank of Kenya (CBK)** official
 - **Variables:** Date, Price (Close), Open, High, Low, Volume, Change %
 
 
-**Key Achievement:** LSTM neural networks achieved 95-99% accuracy (R²) in exchange rate prediction, dramatically outperforming traditional statistical methods.
+## **Key Achievement:** LSTM neural networks achieved 95-99% accuracy (R²) in exchange rate prediction, dramatically outperforming traditional statistical methods.
 
 <img width="1919" height="853" alt="image" src="https://github.com/user-attachments/assets/ccb74c3b-760d-4c85-9ba9-5275327e797d" />
 
@@ -95,7 +94,6 @@ kes-exchange-rate-analysis/
 <img width="1400" height="1200" alt="image" src="https://github.com/user-attachments/assets/1a1a74f8-fd0b-43ff-b659-cf7dc00127a4" />
 
 
-*Time series decomposition showing trend, seasonal, and residual components*
 
 ### Advanced Machine Learning Forecasting
 
@@ -107,7 +105,6 @@ kes-exchange-rate-analysis/
 
 <img width="1828" height="449" alt="newplot (3)" src="https://github.com/user-attachments/assets/f9cca254-2b54-43b2-bc6a-e8b99d9202f9" />
 
-*Comparison of Random Forest, Gradient Boosting, and LSTM performance*
 
 ### Interactive Visualizations
 
@@ -257,7 +254,6 @@ print(forecast.predicted_mean)
 **Returns Correlations:** Moderate (0.30-0.68) - some tactical opportunities
 
 <img width="1200" height="500" alt="image" src="https://github.com/user-attachments/assets/88e8012d-c559-4bef-821c-44b122cb2a16" />
-*Correlation analysis revealing relationship patterns between currency pairs*
 
 ### 5. Trend Analysis
 
@@ -319,7 +315,6 @@ print(forecast.predicted_mean)
 
 <img width="1000" height="500" alt="image" src="https://github.com/user-attachments/assets/805c62d7-fcb6-4cb0-9fdd-c39a36c9db48" />
 
-*Comprehensive comparison of model performance across all metrics*
 
 ## Results
 
