@@ -7,6 +7,7 @@ A comprehensive statistical and machine learning analysis of the Kenyan Shilling
 ## Table of Contents
 
 - [Overview](#overview)
+- [Data Source](#data-source)
 - [Live Dashboard](#live-dashboard)
 - [Project Structure](#project-structure)
 - [Features](#features)
@@ -16,12 +17,8 @@ A comprehensive statistical and machine learning analysis of the Kenyan Shilling
 - [Machine Learning Models](#machine-learning-models)
 - [Results](#results)
 - [Interactive Dashboard](#interactive-dashboard)
-- [Data Source](#data-source)
 - [Key Findings](#key-findings)
-- [Technologies Used](#technologies-used)
 - [Contributing](#contributing)
-- [License](#license)
-- [Citation](#citation)
 
 ## Overview
 
@@ -32,6 +29,18 @@ This project provides a complete end-to-end analysis of Kenyan Shilling (KES) ex
 - Financial institutions
 - Portfolio managers
 - Policy makers
+
+## Data Source
+
+All exchange rate data sourced from the **Central Bank of Kenya (CBK)** official website: [[www.centralbank.go.ke](http://www.centralbank.go.ke)](https://www.centralbank.go.ke/)
+
+**Data Specifications:**
+- **Frequency:** Daily indicative rates
+- **Period:** September 29, 2015 - September 29, 2025
+- **Observations:** ~2,610 per currency
+- **Quality:** Official CBK rates based on market transactions
+- **Variables:** Date, Price (Close), Open, High, Low, Volume, Change %
+
 
 **Key Achievement:** LSTM neural networks achieved 95-99% accuracy (R²) in exchange rate prediction, dramatically outperforming traditional statistical methods.
 
@@ -364,17 +373,6 @@ print(forecast.predicted_mean)
 - Reduce KES exposure when volatility >0.8%
 
 
-
-## Data Source
-
-All exchange rate data sourced from the **Central Bank of Kenya (CBK)** official website: [www.centralbank.go.ke](http://www.centralbank.go.ke)
-
-**Data Specifications:**
-- **Frequency:** Daily indicative rates
-- **Period:** September 29, 2015 - September 29, 2025
-- **Observations:** ~2,610 per currency
-- **Quality:** Official CBK rates based on market transactions
-- **Variables:** Date, Price (Close), Open, High, Low, Volume, Change %
 
 ## Key Findings
 
