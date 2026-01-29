@@ -441,7 +441,7 @@ Contributions are welcome! Here's how you can help:
 **Email**: aimemuganga07@gmail.com
 
 
-**Project Link**: [https://github.com/yourusername/kes-exchange-rate-analysis](https://github.com/yourusername/kes-exchange-rate-analysis)
+**Project Link**: https://github.com/DevAime/kes-usd-forex-timeseries.git
 
 
 
