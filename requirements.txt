@@ -7,4 +7,5 @@ scipy
 statsmodels
 plotly
 nbformat
-streamlit
+streamlit>=1.30
+altair>=5
